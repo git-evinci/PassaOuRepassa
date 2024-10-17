@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, noarchive">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passa ou Repassa Quiz</title>
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" content="Passa ou Repassa Quiz">
+    <meta name="author" content="evinci: engineering for art">
+    <link rel="stylesheet" type="text/css" href="css/fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="css/bebas-neue.min.css">
+    <link rel="stylesheet" type="text/css" href="css/screen.css">
+</head>
+
+<body translate="no">
+    <div id="fullpage">
+        <div class="section active" id="videoSection">
+            <video muted id="videoIntro" width="1920" height="1080" poster="img/poster.png">
+                <source src="video/video.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+            <!-- <div class="videoControl">
+                <button type="button" id="videoControl" onclick="myFunction()">Tocar</button>
+            </div> -->
+        </div>
+        <div class="section" id="quizApp">
+            <div class="logo">
+                <div class="svg">
+                <svg width="507.556" height="112.346" xmlns="http://www.w3.org/2000/svg"><defs><clipPath clipPathUnits="userSpaceOnUse" id="a"><path d="M0 0h1920v1080H0Z"/></clipPath><clipPath clipPathUnits="userSpaceOnUse" id="b"><path d="M0 0h1920v1080H0Z"/></clipPath></defs><text xml:space="preserve" transform="matrix(1.33333 0 0 1.33333 -707.728 1352.101)" style="font-variant:normal;font-weight:700;font-stretch:normal;font-size:69.5849px;font-family:'Bebas Neue Bold';-inkscape-font-specification:BebasNeueBold;writing-mode:lr-tb;fill:#fff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:.750094" x="528.013" y="-964.787"><tspan x="528.01257 553.68933 582.01038 608.03516 634.05988" y="-964.787" style="stroke-width:.750094">PASSA</tspan></text><text xml:space="preserve" transform="matrix(1.33333 0 0 1.33333 -707.728 1352.101)" style="font-variant:normal;font-weight:700;font-stretch:normal;font-size:69.5849px;font-family:'Bebas Neue Bold';-inkscape-font-specification:BebasNeueBold;writing-mode:lr-tb;fill:#fff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:.750094" x="777.86" y="-964.787"><tspan x="777.86041 803.53723 831.85828 857.883 883.90771" y="-964.787" style="stroke-width:.750094">PASSA</tspan></text><g clip-path="url(#a)" transform="matrix(1.00013 0 0 -1.00013 -707.688 992.259)"><path d="M0 0a13.54 13.54 0 0 0-.928 3.664c-.124 1.206-.185 2.612-.185 4.221v10.019c0 3.401-.48 6.293-1.438 8.674-.96 2.38-2.737 4.096-5.334 5.149 4.453 2.101 6.679 6.493 6.679 13.173v5.102c0 5.009-1.191 8.751-3.572 11.225-2.381 2.473-6.231 3.711-11.549 3.711h-15.4V0h10.205v26.439h3.525c2.35 0 4.05-.619 5.102-1.855 1.051-1.238 1.577-3.372 1.577-6.401V7.978c0-1.299.015-2.382.047-3.247.03-.867.092-1.577.185-2.134.093-.556.2-1.02.325-1.391.123-.371.246-.774.371-1.206zm-16.606 55.661c1.794 0 3.108-.526 3.943-1.577.835-1.053 1.253-2.753 1.253-5.102v-6.401c0-2.598-.543-4.392-1.624-5.381-1.083-.99-2.583-1.484-4.499-1.484h-3.989v19.945zm32.376 0h17.626v9.277H5.565V0h27.831v9.277H15.77v19.017h14.008v9.277H15.77Z" style="fill:none;stroke:#fff;stroke-width:1.546;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" transform="translate(1000.745 926.424)"/></g><path d="M0 0v27.831h-9.277V10.204h-46.384v17.627h-9.277V0Zm-9.277 38.653H0v27.831h-64.938V38.653h9.277v17.626h46.384z" style="fill:#17f983;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="matrix(1.00013 0 0 -1.00013 249.631 66.492)"/><g clip-path="url(#b)" transform="matrix(1.00013 0 0 -1.00013 -707.688 992.259)"><path d="M0 0c0 1.228.25 2.092.751 2.593.501.501 1.171.752 2.012.752.84 0 1.51-.251 2.011-.752.501-.501.752-1.365.752-2.593v-18.322c0-1.229-.251-2.093-.752-2.593-.501-.502-1.171-.752-2.011-.752-.841 0-1.511.25-2.012.752-.501.5-.751 1.364-.751 2.593Zm-5.332-17.983c0-2.747.695-4.855 2.084-6.325 1.389-1.471 3.393-2.206 6.011-2.206 2.617 0 4.621.735 6.01 2.206 1.389 1.47 2.085 3.578 2.085 6.325V-.339c0 2.746-.696 4.854-2.085 6.325-1.389 1.47-3.393 2.206-6.01 2.206-2.618 0-4.622-.736-6.011-2.206-1.389-1.471-2.084-3.579-2.084-6.325ZM14.057 7.804v-25.835c0-2.747.67-4.856 2.011-6.326 1.341-1.471 3.32-2.205 5.938-2.205 2.617 0 4.596.734 5.938 2.205 1.34 1.47 2.011 3.579 2.011 6.326V7.804h-5.041v-26.175c0-1.228-.251-2.084-.751-2.569-.502-.484-1.172-.727-2.012-.727-.84 0-1.511.243-2.011.727-.502.485-.752 1.341-.752 2.569V7.804Z" style="fill:#fff;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="translate(912.419 968.078)"/><path d="M0 0v3.369h3.503L-.506 28.425H-8.21l-2.122-13.263h4.613l1.098 7.33 2.536-16.939h-5.072l.934 6.24h-4.648l-2.698-16.862h4.833l.909 6.077h6.46l.909-6.077h5.311L4.042 0Zm-20.411-5.069h5.359a6.983 6.983 0 0 0-.478 1.89 21.559 21.559 0 0 0-.096 2.177v5.168c0 1.754-.247 3.245-.741 4.474-.495 1.227-1.412 2.112-2.752 2.655 2.297 1.084 3.445 3.35 3.445 6.795v2.631c0 2.584-.614 4.514-1.842 5.79-1.228 1.275-3.214 1.914-5.957 1.914h-7.943V-5.069h5.264V8.568h1.818c1.212 0 2.089-.319 2.632-.957.542-.639.813-1.739.813-3.302V-.954c0-.67.008-1.228.024-1.674.016-.448.048-.814.096-1.101.047-.287.103-.526.167-.718.064-.191.127-.399.191-.622m-.526 21.962c0-1.339-.279-2.265-.837-2.775-.559-.51-1.332-.765-2.321-.765h-2.057V23.64h2.536c.924 0 1.603-.271 2.033-.813.431-.543.646-1.42.646-2.632zM-36.87-3.274c1.371 1.451 2.057 3.532 2.057 6.244v17.416c0 2.711-.686 4.793-2.057 6.244-1.372 1.452-3.349 2.177-5.933 2.177-2.584 0-4.562-.725-5.933-2.177-1.372-1.451-2.058-3.533-2.058-6.244V3.369h2.781V0h-2.44c.33-1.314.899-2.409 1.717-3.274 1.371-1.452 3.349-2.178 5.933-2.178 2.584 0 4.561.726 5.933 2.178m-3.206 5.909c0-1.213-.247-2.066-.742-2.56-.494-.495-1.156-.742-1.985-.742-.83 0-1.492.247-1.986.742-.495.494-.742 1.347-.742 2.56v18.086c0 1.212.247 2.065.742 2.56.494.494 1.156.742 1.986.742.829 0 1.491-.248 1.985-.742.495-.495.742-1.348.742-2.56zm-18.899.734h5.263v16.778c0 2.711-.646 4.768-1.938 6.172-1.292 1.404-3.262 2.106-5.909 2.106h-8.326v-4.839h3.761v-3.37h-3.761V-5.069h8.326c2.647 0 4.617.702 5.909 2.106.72.782 1.232 1.775 1.551 2.963h-6.23a3.01 3.01 0 0 0-1.326-.284h-2.966V23.64h2.966c.829 0 1.484-.239 1.962-.718.479-.478.718-1.324.718-2.536zm-28.517-8.438h14.354v4.785h-9.091v9.809h7.225v4.785h-7.225v9.33h9.091v4.785h-14.354zm-5.287 2.106c1.292 1.403 1.938 3.46 1.938 6.172v16.938c0 2.711-.646 4.768-1.938 6.172-1.292 1.404-3.262 2.106-5.909 2.106h-8.326V15.162h5.264v8.478h2.966c.829 0 1.483-.239 1.962-.718.478-.478.718-1.324.718-2.536V2.97c0-1.213-.24-2.058-.718-2.536-.479-.479-1.133-.718-1.962-.718h-2.966v12.077h-5.264V-5.069h8.326c2.647 0 4.617.702 5.909 2.106M-116.2-5.069h5.407v16.862h-2.081v3.369h2.081v13.263h-4.689V8.376l-5.407 20.049h-6.603V-5.069h4.737V19.19Zm-28.852 0h14.354v4.785h-9.091v9.809h7.225v4.785h-7.225v5.906h-5.263zm5.263 28.709h9.091v4.785h-14.354v-4.839h5.263zm-17.607 0h9.091v4.785h-14.355V3.369h5.264v6.156h7.225v4.785h-7.225zm-13.493-28.709h5.359a6.986 6.986 0 0 0-.479 1.89 21.586 21.586 0 0 0-.095 2.177V0h-3.207v3.369h3.207v.797c0 1.754-.248 3.245-.742 4.474-.495 1.227-1.411 2.112-2.751 2.655 2.296 1.084 3.445 3.35 3.445 6.795v2.631c0 2.584-.615 4.514-1.842 5.79-1.229 1.275-3.214 1.914-5.957 1.914h-7.943V-5.069h5.263V8.568h1.818c1.212 0 2.089-.319 2.632-.957.542-.639.813-1.739.813-3.302V-.954c0-.67.008-1.228.024-1.674.016-.448.048-.814.096-1.101.048-.287.103-.526.168-.718.063-.191.127-.399.191-.622m-.526 21.962c0-1.339-.28-2.265-.838-2.775-.558-.51-1.332-.765-2.32-.765h-2.058V23.64h2.536c.925 0 1.603-.271 2.034-.813.43-.543.646-1.42.646-2.632zm-15.096-7.272c1.292 1.403 1.938 3.46 1.938 6.172v4.354c0 2.711-.646 4.768-1.938 6.172-1.292 1.404-3.262 2.106-5.909 2.106h-7.751V15.162h3.063v-3.369h-3.063V-5.069h5.263V7.515h2.488c2.647 0 4.617.701 5.909 2.106m-3.325 5.837c0-1.213-.224-2.042-.67-2.488-.447-.447-1.085-.67-1.914-.67h-2.488v11.34h2.488c.829 0 1.467-.224 1.914-.67.446-.447.67-1.276.67-2.488zm-19.139-20.527h4.976v16.862h-4.976zm0 20.231h4.977v13.263h-7.321l-3.589-23.781-3.875 23.781h-7.321v-4.839h4.989v-3.37h-4.989V-5.069h4.593v23.685l3.924-23.685h4.976l3.636 24.02zm-34.689-20.231h14.354v4.785h-9.091v9.809h7.225v4.785h-7.225v9.33h9.091v4.785h-14.354zm-25.024 0h14.354v4.785h-9.091v9.809h7.225v4.785h-7.225v9.33h9.091v4.785h-14.354V3.369h2.508V0h-2.508zm-8.612 8.438h5.263v16.778c0 2.711-.646 4.768-1.938 6.172-1.292 1.404-3.262 2.106-5.909 2.106h-8.326V-5.069h8.326c2.647 0 4.617.702 5.909 2.106.72.782 1.232 1.775 1.551 2.963h-6.23a3.01 3.01 0 0 0-1.326-.284h-2.966V23.64h2.966c.829 0 1.484-.239 1.962-.718.479-.478.718-1.324.718-2.536zm-16.484-6.691c1.324 1.451 1.986 3.532 1.986 6.244v25.503h-4.976V15.162h3.218v-3.369h-3.218V2.587c0-1.213-.248-2.058-.742-2.536-.495-.478-1.156-.718-1.985-.718-.83 0-1.492.24-1.986.718-.495.478-.742 1.323-.742 2.536v9.206h-3.541v3.369h3.541v13.263h-5.263v-4.839h2.564v-3.37h-2.564V2.922c0-2.712.662-4.793 1.986-6.244 1.323-1.452 3.277-2.177 5.861-2.177 2.584 0 4.537.725 5.861 2.177m-21.267 26.962h5.502v4.785h-16.268V23.64h5.502V-5.069h5.264v28.655zm-18.325-28.709h5.263v33.494h-5.263V6.739h2.757v-3.37h-2.757zm-7.799 28.709h5.503v4.785h-16.269V23.64h5.503V-5.069h5.263v8.438h-2.921v3.37h2.921zm-16.986-28.709h5.311l-4.045 25.285h-3.627v3.37h3.088l-.775 4.839h-7.703l-5.359-33.494h4.832l.91 6.077h6.459zm-1.627 10.622h-5.072l2.536 16.939zM-157.396 0h-5.264v-5.069h14.355v4.785h-9.091z" style="fill:#17f983;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="translate(1143.21 885.302)"/></g></svg>
+                </div>
+            </div>
+
+            <div class="left-bracket"></div>
+
+            <div class="question-container">
+                <h2 class="question-text">Qual é a melhor hora do dia?</h2>
+            </div>
+        
+            <div class="right-bracket"></div>
+        
+            <div class="choice-container" id="choice-1">
+                <input type="radio" name="choice" id="input-choice-1">
+                <label for="input-choice-1">A. A hora de acordar!</label>
+            </div>
+            <div class="choice-container" id="choice-2">
+                <input type="radio" name="choice" id="input-choice-2">
+                <label for="input-choice-2">B. A hora de almoçar!</label>
+            </div>
+            <div class="choice-container" id="choice-3">
+                <input type="radio" name="choice" id="input-choice-3">
+                <label for="input-choice-3">C. A hora de dormir!</label>
+            </div>
+
+            <div class="statusBar">
+                <div class="scoreGreen">
+                    <div class="score" id="scoreGreenValue">
+        
+                    </div>
+                    <div class="scoreGreenText">
+                        <p>Equipe Verde </p>
+                    </div>
+                </div>
+                <div class="timer">
+                    <p id="timer">00:00</p>
+                </div>
+                <div class="scoreBlue">
+                    <div class="scoreBlueText">
+                        <p>Equipe Azul</p>
+                    </div>
+                    <div class="score" id="scoreBlueValue">
+        
+                    </div>
+                </div>
+            </div>
+            <div class="textTempo">
+                <p>Tempo</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script type="text/javascript" src="js/fullpage.js"></script>
+
+    <script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+            licenseKey: 'Y61GU8iAtp',
+        });
+    </script>
+    <script type="text/javascript" src="js/videoControl.js"></script>
+    <script type="text/javascript" src="js/screen.js"></script>
+</body>
+
+</html>

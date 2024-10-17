@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, noarchive">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passa ou Repassa Quiz</title>
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" content="Passa ou Repassa Quiz">
+    <meta name="author" content="evinci: engineering for art">
+    <link rel="stylesheet" type="text/css" href="css/fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="css/bebas-neue.min.css">
+    <link rel="stylesheet" type="text/css" href="css/controller.css">
+</head>
+
+<body translate="no">
+    <div id="fullpage">
+        <div class="section active" id="videoSection">
+            <video muted id="videoIntro" width="1920" height="1080" poster="img/poster.png">
+                <source src="video/video.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+            <!-- <div class="videoControl">
+                <button type="button" id="videoControl" onclick="myFunction()">Tocar</button>
+            </div> -->
+        </div>
+        <div class="section" id="Controller">
+            <div class="preview">
+
+            </div>
+            <div class="sideBar">
+                <button class="svg-button" role="button" type="button" id="ask_button">Perguntar</button>
+                <button class="svg-button" role="button" type="button" id="go_button">Valendo</button>
+                <button class="svg-button" role="button" type="button" id="timer_button">Timer</button>
+                <button class="svg-button" role="button" type="button" id="choose_button">Alternativa</button>
+                <button class="svg-button" role="button" type="button" id="check_answer_button">Resposta</button>
+                <button class="svg-button" role="button" type="button" id="score_button">Pontos</button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script type="text/javascript" src="js/fullpage.js"></script>
+
+    <script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+            licenseKey: 'Y61GU8iAtp',
+        });
+    </script>
+    <script type="text/javascript" src="js/videoControl.js"></script>
+    <script type="text/javascript" src="js/controller.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,182 @@
+[
+    {
+      "question": "O que é atitude empreendedora?",
+      "choices": [
+        "Ser apenas dono de um negócio.",
+        "Ter iniciativa, criatividade e disposição para correr riscos.",
+        "Trabalhar apenas em grandes empresas."
+      ],
+      "correct_answer": "Ter iniciativa, criatividade e disposição para correr riscos."
+    },
+    {
+      "question": "Qual dessas características é essencial para um empreendedor?",
+      "choices": [
+        "Medo de falhar.",
+        "Persistência.",
+        "Indiferença."
+      ],
+      "correct_answer": "Persistência."
+    },
+    {
+      "question": "Qual é um risco saudável em empreendedorismo?",
+      "choices": [
+        "Investir todo seu dinheiro sem planejamento.",
+        "Testar uma nova ideia com um pequeno grupo.",
+        "Ignorar o feedback dos clientes."
+      ],
+      "correct_answer": "Testar uma nova ideia com um pequeno grupo."
+    },
+    {
+      "question": "Por que o networking é importante?",
+      "choices": [
+        "Para fazer amigos apenas.",
+        "Para criar conexões e oportunidades de negócio.",
+        "Para competir com todos."
+      ],
+      "correct_answer": "Para criar conexões e oportunidades de negócio."
+    }, 
+    {
+      "question": "Qual é um benefício do erro?",
+      "choices": [
+        "Provar que você não é capaz.",
+        "Aprender e melhorar para o futuro.",
+        "Causar estresse e desmotivação."
+      ],
+      "correct_answer": "Aprender e melhorar para o futuro."
+    },   
+    {
+      "question": "O que significa ser flexível como empreendedor?",
+      "choices": [
+        "Manter sempre os mesmos planos.",
+        "Adaptar-se às mudanças e feedbacks.",
+        "Ignorar novas oportunidades."
+      ],
+      "correct_answer": "Adaptar-se às mudanças e feedbacks."
+    },   
+    {
+      "question": "Qual é um sinal de um empreendedor de sucesso?",
+      "choices": [
+        "Ter medo de tentar.",
+        "Ser capaz de lidar com críticas.",
+        "Trabalhar sozinho e evitar parcerias."
+      ],
+      "correct_answer": "Ser capaz de lidar com críticas."
+    }, 
+    {
+      "question": "O que um bom plano de negócios deve incluir?",
+      "choices": [
+        "Apenas um resumo de ideias.",
+        "Análise de mercado e estratégias financeiras.",
+        "Apenas um orçamento."
+      ],
+      "correct_answer": "Análise de mercado e estratégias financeiras."
+    }, 
+    {
+      "question": "O que é inovação?",
+      "choices": [
+        "Repetir o que outros fazem.",
+        "Criar algo novo ou melhorar algo existente.",
+        "Evitar mudanças."
+      ],
+      "correct_answer": "Criar algo novo ou melhorar algo existente."
+    },   
+    {
+      "question": "Qual é a importância da pesquisa de mercado?",
+      "choices": [
+        "É desnecessária.",
+        "Ajuda a entender o público-alvo e a concorrência.",
+        "Apenas para grandes empresas."
+      ],
+      "correct_answer": "Ajuda a entender o público-alvo e a concorrência."
+    },   
+    {
+      "question": "O que significa ser proativo?",
+      "choices": [
+        "Esperar que as coisas aconteçam.",
+        "Tomar a iniciativa e agir antes que algo ocorra.",
+        "Não se envolver em projetos."
+      ],
+      "correct_answer": "Tomar a iniciativa e agir antes que algo ocorra."
+    },
+    {
+      "question": "Qual é uma forma de obter feedback?",
+      "choices": [
+        "Ignorar a opinião dos outros.",
+        "Perguntar aos clientes sobre seus produtos ou serviços.",
+        "Fazer tudo sozinho."
+      ],
+      "correct_answer": "Perguntar aos clientes sobre seus produtos ou serviços."
+    }, 
+    {
+      "question": "O que um empreendedor deve fazer ao enfrentar um desafio?",
+      "choices": [
+        "Desistir imediatamente.",
+        "Analisar a situação e buscar soluções.",
+        "Culpar os outros."
+      ],
+      "correct_answer": "Analisar a situação e buscar soluções."
+    },   
+    {
+      "question": "Qual é um bom uso do fracasso?",
+      "choices": [
+        "Deixar de tentar.",
+        "Aprender com os erros e ajustar a estratégia.",
+        "Esquecer o que aconteceu."
+      ],
+      "correct_answer": "Aprender com os erros e ajustar a estratégia."
+    },   
+    {
+      "question": "Como a criatividade ajuda os empreendedores?",
+      "choices": [
+        "Apenas para fazer arte.",
+        "Para encontrar soluções inovadoras e únicas.",
+        "É irrelevante no mundo dos negócios."
+      ],
+      "correct_answer": "Para encontrar soluções inovadoras e únicas."
+    }, 
+    {
+      "question": "Qual é uma estratégia eficaz de marketing?",
+      "choices": [
+        "Ignorar as redes sociais.",
+        "Conhecer e se conectar com o público-alvo.",
+        "Fazer apenas promoções sem planejamento."
+      ],
+      "correct_answer": "Conhecer e se conectar com o público-alvo."
+    }, 
+    {
+      "question": "O que significa ter um mindset de crescimento?",
+      "choices": [
+        "Acreditar que suas habilidades são fixas.",
+        "Acreditar que você pode desenvolver suas habilidades com esforço.",
+        "Evitar aprender coisas novas."
+      ],
+      "correct_answer": "Acreditar que você pode desenvolver suas habilidades com esforço."
+    },   
+    {
+      "question": "Qual é uma vantagem de trabalhar em equipe?",
+      "choices": [
+        "O trabalho leva mais tempo.",
+        "Diversidade de ideias e habilidades.",
+        "Todos têm que concordar sempre."
+      ],
+      "correct_answer": "Diversidade de ideias e habilidades."
+    },   
+    {
+      "question": "Qual é um bom motivo para empreender?",
+      "choices": [
+        "Apenas querer dinheiro.",
+        "Identificar uma necessidade e querer fazer a diferença.",
+        "Para evitar trabalhar para outros."
+      ],
+      "correct_answer": "Identificar uma necessidade e querer fazer a diferença."
+    },
+    {
+      "question": "Por que é importante definir metas?",
+      "choices": [
+        "Elas não têm valor real.",
+        "Ajudam a orientar esforços e medir progresso.",
+        "Apenas para seguir a tendência."
+      ],
+      "correct_answer": "Ajudam a orientar esforços e medir progresso."
+    }
+  ]
